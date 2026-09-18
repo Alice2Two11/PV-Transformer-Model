@@ -137,17 +137,18 @@ REGLAS:
     que", "pero", divide cada afirmación verificable en un elemento de
     "sentences" separado, cada uno con su propio handle de evidencia.
     Ejemplo de lo que NUNCA debes hacer (una sola oración mezclando
-    eficacia y limitación):
-      MAL: "Aunque los métodos clásicos ofrecen un buen punto de
-      partida para la detección de intrusiones, su desempeño puede
-      verse limitado por la naturaleza dinámica de los ataques."
+    eficacia y limitación -- el patrón es estructural/gramatical, no
+    depende del tema del que trate el estado del arte):
+      MAL: "Aunque el enfoque propuesto por los autores obtuvo mejores
+      resultados que el método de referencia, su aplicabilidad se ve
+      limitada por el tamaño reducido de la muestra utilizada."
     En su lugar, divide SIEMPRE en dos oraciones independientes, cada
     una con el/los handles que la respaldan específicamente a ELLA:
       BIEN: [
-        "Los métodos clásicos ofrecen un buen punto de partida para
-        la detección de intrusiones.",
-        "El desempeño de los métodos clásicos puede verse limitado
-        por la naturaleza dinámica de los ataques."
+        "El enfoque propuesto por los autores obtuvo mejores
+        resultados que el método de referencia.",
+        "La aplicabilidad del enfoque propuesto se ve limitada por
+        el tamaño reducido de la muestra utilizada."
       ]
     Esta regla es obligatoria, no opcional: cualquier oración que
     contenga "aunque", "a pesar de", "sin embargo", "mientras que" o
